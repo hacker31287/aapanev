@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Ob2Cloud
+    env: docker
+    repo: https://github.com/hacker31287/railwayv.git
+    region: oregon
+    plan: free
