@@ -1,4 +1,4 @@
-FROM ubuntu:latest ubuntu-base
+FROM ubuntu:22.04 ubuntu-base
 
 
 RUN apt-get -qqy update \
