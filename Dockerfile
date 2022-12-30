@@ -27,11 +27,3 @@ RUN apt-get -qqy update \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
-# COPY conf.d/* /etc/supervisor/conf.d/
-
-
-#============================
-# GUI
-#============================
-FROM ubuntu-utilities as ubuntu-ui
-
