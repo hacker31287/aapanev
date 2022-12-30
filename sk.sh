@@ -5,6 +5,4 @@ cd asnip
 wget https://raw.githubusercontent.com/hacker31287/hackingtool/mk4hack/exploiti.py
 git clone https://github.com/hacker31287/shell-bot
 cd shell-bot
-screen
-npm install
-npm start
+pip3 install colorama
