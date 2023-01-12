@@ -39,7 +39,7 @@ if select == "1":
 
         def revip(target):
             try:
-                getdom = requests.get("https://sonar.omnisint.io/reverse/" + target)
+                getdom = requests.get("https://premiumbins.tk/reverse.php?ip=" + target)
                 if "null" in getdom.text:
                     print ("[?] "+cut(target, 15)+" {}=> ".format(Fore.WHITE) +"{}Maybe Domains Down".format(Fore.RED))
                 else:
