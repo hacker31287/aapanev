@@ -1,7 +1,7 @@
 <?php
 $ip = $_GET['ip'];
 $proxy = 'isp2.hydraproxy.com:9989';
-$ip_file = file("ips.txt"); 
+$ip_file = file("host.txt"); 
 $ip_fi = end($ip_file);  
 $ip= trim($ip_fi);
 $proxy_auth = 'juna47485yzui118082:PfqlZAyuYmfGfzRF';
